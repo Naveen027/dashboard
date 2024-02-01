@@ -1,0 +1,16 @@
+.container-fluid{
+  margin: 10px;
+  width: 1500px;
+}
+
+.col-lg-10{
+  /* border: 4px solid #ffbf00da; */
+  background-color: whitesmoke;
+  border-radius: 10px;
+  
+}
+.col-lg-2{
+  background-color: black;
+  border-radius: 10px;
+}
+
