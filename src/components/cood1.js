@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Doughnut, Bar, Line } from 'react-chartjs-2';
 import './Cood.css';
 
+//this a hardcoded json data//
 function Cood1() {
     const hardcodedData = [
         
