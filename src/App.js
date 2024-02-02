@@ -2,11 +2,12 @@
 import './App.css';
 
 import Cood from './components/Cood';
+import Cood1 from './components/cood1';
 
 function App() {
   return (
    <>
-    <Cood/>
+    <Cood1/>
     </>
   );
 }

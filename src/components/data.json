@@ -1,0 +1,198 @@
+
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "marks": {
+          "English": 85,
+          "Kannada": 90,
+          "Mathematics": 78,
+          "Science": 92,
+          "Social": 88 
+        },
+        "attendance": {
+          "January": "28",
+          "February": "29",
+          "March": "25",
+          "April": "30",
+          "May": "30",
+          "June": "25",
+          "July": "27",
+          "August": "31",
+          "September": "15",
+          "October": "26",
+          "November": "30",
+          "December": "24"
+        },
+        "courses":{
+          "total":"15",
+          "ongoing":"4",
+          "completed":"6",
+          "pending":"5"
+        },
+        "details":{
+         "Admissonnumber":1213,
+         "Admissondate":"12/06/2022",
+         "Fees":"25000",
+         "Paid":"14000",
+         "Pending":"16000"
+        } 
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "marks": {
+          "English": 75,
+          "Kannada": 88,
+          "Mathematics": 80,
+          "Science": 85,
+          "Social": 79
+        },
+        "attendance": {
+          "January": "25",
+          "February": "23",
+          "March": "22",
+          "April": "6",
+          "May": "30",
+          "June": "29",
+          "July": "25",
+          "August": "31",
+          "September": "25",
+          "October": "6",
+          "November": "10",
+          "December": "29"
+        },
+        "courses":{
+          "total":"15",
+          "ongoing":"6",
+          "completed":"3",
+          "pending":"6"
+        },
+        "details":{
+         "Admissonnumber":1215,
+         "Admissondate":"12/06/2022",
+         "Fees":"25000",
+         "Paid":"10000",
+         "Pending":"15000"
+        } 
+      },
+      {
+        "id": 3,
+        "name": "Bob Johnson",
+        "marks": {
+          "English": 92,
+          "Kannada": 86,
+          "Mathematics": 95,
+          "Science": 88,
+          "Social": 90
+        },
+        "attendance": {
+          "January": "20",
+          "February": "25",
+          "March": "5",
+          "April": "30",
+          "May": "25",
+          "June": "20",
+          "July": "25",
+          "August": "31",
+          "September": "55",
+          "October": "6",
+          "November": "20",
+          "December": "29"
+        },
+        "courses":{
+          "total":"15",
+          "ongoing":"5",
+          "completed":"7",
+          "pending":"3"
+        },
+        "details":{
+         "Admissonnumber":1216,
+         "Admissondate":"12/06/2022",
+         "Fees":"25000",
+         "Paid":"20000",
+         "Pending":"5000"
+        } 
+      },
+      {
+        "id": 4,
+        "name": "Henry",
+        "marks": {
+          "English": 95,
+          "Kannada": 86,
+          "Mathematics": 55,
+          "Science": 98,
+          "Social": 70
+        },
+        "attendance": {
+          "January": "25",
+          "February": "13",
+          "March": "22",
+          "April": "36",
+          "May": "15",
+          "June": "29",
+          "July": "25",
+          "August": "31",
+          "September": "5",
+          "October": "16",
+          "November": "20",
+          "December": "9"
+        },
+        "courses":{
+          "total":"15",
+          "ongoing":"2",
+          "completed":"5",
+          "pending":"8"
+        },
+        "details":{
+         "Admissonnumber":1218,
+         "Admissondate":"12/06/2022",
+         "Fees":"25000",
+         "Paid":"22000",
+         "Pending":"3000"
+        } 
+      },{
+        "id": 5,
+        "name": "Bob Marley",
+        "marks": {
+          "English": 90,
+          "Kannada": 56,
+          "Mathematics": 55,
+          "Science": 58,
+          "Social": 80
+        },
+        "attendance": {
+          "January": "25",
+          "February": "13",
+          "March": "22",
+          "April": "36",
+          "May": "25",
+          "June": "19",
+          "July": "25",
+          "August": "21",
+          "September": "15",
+          "October": "16",
+          "November": "20",
+          "December": "29"
+        },
+        "courses":{
+          "total":"25",
+          "ongoing":"5",
+          "completed":"15",
+          "pending":"5"
+        },
+        "details":{
+         "Admissonnumber":1212,
+         "Admissondate":"12/06/2022",
+         "Fees":"25000",
+         "Paid":"12000",
+         "Pending":"13000"
+        } 
+      }
+    ]
+  }
+  
+  
+  
+  

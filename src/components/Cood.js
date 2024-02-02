@@ -1,19 +1,25 @@
+//this code includes the db.json file which has been imported from public file and been fetched//
+
+
 import React, { useEffect, useState } from "react";
 import { Chart as chartjs } from 'chart.js/auto';//imp
 import { Doughnut, Bar, Line } from 'react-chartjs-2';
 import axios from 'axios';
 import './Cood.css';
+import data from './data.json'
 
 function Cood() {
     const [students, setStudents] = useState([]);
     const [selectedStudentIndex, setSelectedStudentIndex] = useState(0);
 
+    
+
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('/db.json');
+                const response = await axios.get("db.json");
                 setStudents(response.data.students);
-                console.log(response.data.students);
+                // console.log(response.data.students);
             } catch (error) {
                 console.error("Error fetching data:", error);
             }
@@ -42,6 +48,8 @@ function Cood() {
         setSelectedStudentIndex(index);
     };
 
+    const name = data.students[0];
+     console.log(name)
     return (
         <>
             <div className="container-fluid">
