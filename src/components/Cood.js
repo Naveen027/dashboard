@@ -13,7 +13,7 @@ function Cood() {
     const [selectedStudentIndex, setSelectedStudentIndex] = useState(0);
 
     
-
+//josn file is been fetched//
     useEffect(() => {
         const fetchData = async () => {
             try {
